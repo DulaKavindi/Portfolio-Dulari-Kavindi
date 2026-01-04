@@ -2,12 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import ageC from "../../Assets/Projects/age-calculator.png";
+import calculator from "../../Assets/Projects/calculator.png";
+import expense from "../../Assets/Projects/expense-tracker.png";
+import finalProject from "../../Assets/Projects/final-project.png";
+import ToDo from "../../Assets/Projects/ToDo.png";
 
 function Projects() {
   return (
@@ -23,70 +22,61 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={finalProject}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Smart Garment production optimization and tracking system"
+              description="This university final-year project, titled Smart Garment Tracking and Optimization System, is designed to support garment factories by enabling real-time production monitoring using RFID technology, employee productivity tracking, quality defect management, and analytical reporting to enhance operational efficiency and decision-making."
+              technologies="React.js, Node.js, MongoDB, RFID"
+              ghLink="https://github.com/SasinduV0/SGPTOS-FinalProject"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={ageC}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Age Calculator"
+              description="A responsive React app that calculates a person's exact age in years, months, and days from their date of birth, with form validation and a clean, user-friendly interface."
+              technologies="React, JavaScript, Tailwind CSS, Vite"
+              ghLink="https://github.com/DulaKavindi/CodeAlpha_Age_Calculator"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={expense}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Personal Expense Tracker"
+              description="A full-stack web application that allows users to securely record and categorize daily expenses, visualize spending through interactive dashboards, apply filters by date and category, and customize budget limits. The system supports data-driven financial decisions by offering clear insights into spending behavior and budget performance."
+              technologies="React, Node.js, postgresql"
+              ghLink="https://github.com/DulaKavindi/Personal-Expense-Tracker"             
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={calculator}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Simple Calculator"
+              description="A simple calculator project created to practice modern programming languages by implementing core arithmetic operations such as addition, subtraction, multiplication, and division."
+              technologies="React.js"
+              ghLink="https://github.com/DulaKavindi/Simple-Calculator"
+              
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={ToDo}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
+              title="Simple ToDo List"
+              description="The Simple To-Do List is a basic app that helps users add, view and delete daily tasks. It is easy to use and helps keep tasks organized in one place."
+              technologies="React.js"
+              ghLink="https://github.com/DulaKavindi/Simple_ToDoList"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
-            />
-          </Col>
         </Row>
       </Container>
     </Container>

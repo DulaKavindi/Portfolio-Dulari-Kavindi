@@ -7,38 +7,37 @@ function AboutCard() {
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: "justify" }}>
-            Hi everyone! I’m <span className="purple">Soumyajit Behera</span>{" "}
-            from <span className="purple">Bhubaneswar, India</span>.
-            <br />
-            I’m currently working as a{" "}
-            <span className="purple">Software Developer</span> at{" "}
-            <span className="purple">Juspay</span>.
-            <br />I hold an Integrated M.Sc. (IMSc) in{" "}
-            <span className="purple">Mathematics and Computing</span> from{" "}
-            <span className="purple">BIT Mesra</span>.
-            <br />
-            <br />
-            Outside of coding, I love engaging in activities that keep me
-            creative and inspired:
-          </p>
+  <p style={{ textAlign: "justify" }}>
+    Hi everyone! I’m <span className="purple">Dulari Kavindi</span>{" "}
+    from <span className="purple">Negombo, Sri Lanka</span>.
+    <br />
+    I’m a <span className="purple">motivated IT undergraduate</span> at the{" "}
+    <span className="purple">Institute of Technology, University of Moratuwa</span>,
+    currently in my second year.
+    <br />
+    I’m passionate about{" "}
+    <span className="purple">full-stack and frontend web development</span>, with
+    hands-on experience in building responsive, secure, and user-friendly web
+    applications using modern technologies.
+    <br />
+    <br />
+    I have worked with technologies such as{" "}
+    <span className="purple">
+      JavaScript, React, Node.js, Express, PostgreSQL, and MongoDB
+    </span>, and I enjoy applying clean code practices, Agile Scrum methods, and
+    problem-solving skills in real-world projects.
+    <br />
+    <br />
+    Beyond coding, I enjoy learning new technologies, improving my UI/UX skills,
+    collaborating in teams, and continuously developing both my technical and
+    professional communication skills.
+  </p>
 
-          <ul>
-            <li className="about-activity">
-              <ImPointRight /> Playing Games 🎮
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs ✍️
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Traveling and Exploring New Places 🌍
-            </li>
-          </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
             "Strive to build things that make a difference!"{" "}
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          <footer className="blockquote-footer">Dulari Kavindi</footer>
         </blockquote>
       </Card.Body>
     </Card>

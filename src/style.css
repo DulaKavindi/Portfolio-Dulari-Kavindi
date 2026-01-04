@@ -90,7 +90,7 @@ button:focus {
 .navbar {
   position: fixed !important;
   transition: all 0.3s ease-out 0s !important;
-  padding: 0.3rem 2rem !important;
+  padding: 0.8rem 2rem !important;
   font-size: 1.2rem !important;
 }
 
@@ -160,8 +160,8 @@ button:focus {
 }
 
 .logo {
-  height: 1.4em !important;
-  width: 2.5em !important;
+  height: 3em !important;
+  width: 9em !important;
 }
 
 .navbar-nav .nav-link {
@@ -409,8 +409,8 @@ button:focus {
 .footer {
   background-color: rgb(10, 4, 22);
   bottom: 0 !important;
-  padding-top: 10px !important;
-  padding-bottom: 8px !important ;
+  padding-top: 25px !important;
+  padding-bottom: 25px !important ;
 }
 .footer-copywright {
   text-align: center !important;
