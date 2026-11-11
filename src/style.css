@@ -759,3 +759,125 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
+
+/* --------- */
+/* Experience Section */
+/* --------- */
+.experience-section {
+  position: relative !important;
+  padding-top: 150px !important;
+  padding-bottom: 50px !important;
+  background-image: var(--section-background-color) !important;
+  color: white !important;
+  min-height: 100vh;
+}
+
+.experience-card-wrapper {
+  margin-bottom: 30px;
+}
+
+.experience-card-view {
+  background-color: rgba(18, 12, 36, 0.55) !important;
+  border: 1.5px solid rgba(199, 112, 240, 0.25) !important;
+  box-shadow: 0 4px 15px 2px rgba(119, 53, 136, 0.3) !important;
+  color: white !important;
+  backdrop-filter: blur(10px) !important;
+  border-radius: 14px !important;
+  padding: 15px 20px !important;
+  transition: all 0.4s ease-in-out !important;
+  text-align: left !important;
+}
+
+.experience-card-view:hover {
+  transform: translateY(-5px) !important;
+  border-color: rgba(199, 112, 240, 0.75) !important;
+  box-shadow: 0 8px 24px 5px rgba(142, 68, 173, 0.45) !important;
+}
+
+.experience-role {
+  font-size: 1.4em !important;
+  font-weight: 600 !important;
+  color: #ffffff !important;
+  letter-spacing: 0.3px;
+}
+
+.experience-company {
+  font-size: 1.05em !important;
+  margin-top: 5px;
+}
+
+.experience-meta {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.experience-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 14px;
+  border-radius: 20px;
+  font-size: 0.88em;
+  font-weight: 500;
+}
+
+.duration-badge {
+  background: rgba(199, 112, 240, 0.18);
+  color: #df9bfb;
+  border: 1px solid rgba(199, 112, 240, 0.45);
+}
+
+.date-badge {
+  background: rgba(255, 255, 255, 0.08);
+  color: #e5def5;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.experience-points {
+  list-style: none !important;
+  padding-left: 0 !important;
+  margin-top: 18px !important;
+  margin-bottom: 15px !important;
+}
+
+.experience-point-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 10px;
+  font-size: 1.05em;
+  color: #ded9e8;
+  line-height: 1.6;
+}
+
+.experience-point-item .point-icon {
+  margin-top: 5px;
+  min-width: 16px;
+  flex-shrink: 0;
+}
+
+.experience-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+  padding-top: 14px !important;
+}
+
+.experience-tag {
+  background: rgba(109, 32, 197, 0.28);
+  color: #dfbcf1;
+  border: 1px solid rgba(199, 112, 240, 0.3);
+  padding: 3px 12px;
+  border-radius: 14px;
+  font-size: 0.82em;
+  letter-spacing: 0.3px;
+  transition: all 0.3s ease;
+}
+
+.experience-tag:hover {
+  background: rgba(109, 32, 197, 0.65);
+  color: #ffffff;
+  border-color: rgba(199, 112, 240, 0.7);
+}
+
