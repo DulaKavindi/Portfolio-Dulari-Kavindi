@@ -10,26 +10,18 @@ function AboutCard() {
     Hi everyone! I’m <span className="purple">Dulari Kavindi</span>{" "}
     from <span className="purple">Negombo, Sri Lanka</span>.
     <br />
-    I’m a <span className="purple">motivated IT undergraduate</span> at the{" "}
-    <span className="purple">Institute of Technology, University of Moratuwa</span>,
-    currently in my second year.
-    <br />
-    I’m passionate about{" "}
-    <span className="purple">full-stack and frontend web development</span>, with
-    hands-on experience in building responsive, secure, and user-friendly web
-    applications using modern technologies.
+    I’m a <span className="purple">motivated Information Technology undergraduate</span> at the{" "}
+    <span className="purple">Institute of Technology, University of Moratuwa</span> with hands-on industry experience as a{" "}
+    <span className="purple">Full-Stack Developer Intern</span>, contributing to enterprise-level web applications.
     <br />
     <br />
-    I have worked with technologies such as{" "}
+    I’m passionate about full-stack development and building responsive, secure, and scalable web solutions. I have worked extensively with modern technologies such as{" "}
     <span className="purple">
-      JavaScript, React, Node.js, Express, PostgreSQL, and MongoDB
-    </span>, and I enjoy applying clean code practices, Agile Scrum methods, and
-    problem-solving skills in real-world projects.
+      Angular, Spring Boot, React, Node.js, Express, MySQL, PostgreSQL, and MongoDB
+    </span>, as well as RESTful API development and database management.
     <br />
     <br />
-    Beyond coding, I enjoy learning new technologies, improving my UI/UX skills,
-    collaborating in teams, and continuously developing both my technical and
-    professional communication skills.
+    I enjoy applying clean code practices, Agile Scrum methodologies, and strong problem-solving skills in collaborative team environments. Beyond coding, I continuously explore new technologies, refine UI/UX experiences, and develop my technical and professional communication skills.
   </p>
 
 

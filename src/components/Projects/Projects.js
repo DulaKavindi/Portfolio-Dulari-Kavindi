@@ -28,7 +28,7 @@ function Projects() {
               isOngoing={true}
               title="Secure Full-Stack Weather Dashboard"
               subtitle="Full-Stack Developer | Ongoing Project"
-              description="Developed a responsive Single Page Application (SPA) using Angular to display real-time, multi-city weather data with a mobile-first UI. Engineered a secure Java Spring Boot middle-tier integrating OpenWeatherMap API with in-memory Caffeine Cache (5-min eviction policy) to minimize latency and optimize rate limits. Integrated Auth0 for enterprise IAM with JWT endpoint security and enforced email-based Multi-Factor Authentication (MFA)."
+              description="Developed a responsive Single Page Application (SPA) using Angular to display real-time, multi-city weather data with a mobile-first UI. Engineered a secure Java Spring Boot middle-tier integrating OpenWeatherMap API with in-memory Caffeine Cache (5-min eviction policy) to minimize latency and optimize rate limits. Integrated Auth0 for secure user authentication with JWT endpoint protection and enforced email-based Multi-Factor Authentication (MFA)."
               technologies="Java, Spring Boot, Angular, TypeScript, Auth0, RESTful APIs, Caffeine Cache"
               ghLink="https://github.com/DulaKavindi/weather-app"
             />
