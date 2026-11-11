@@ -11,6 +11,7 @@ import Mongo from "../../Assets/TechIcons/Mongo.svg";
 import SQL from "../../Assets/TechIcons/SQL.svg";
 import Tailwind from "../../Assets/TechIcons/Tailwind.svg";
 import Postman from "../../Assets/TechIcons/Postman.svg";
+import { SiAngular, SiSpringboot } from "react-icons/si";
 
 function Techstack() {
   return (
@@ -68,6 +69,16 @@ function Techstack() {
         <div className="tech-icons-text">Tailwind CSS</div>
       </Col>
 
+
+      <Col xs={4} md={2} className="tech-icons">
+        <SiAngular style={{ fontSize: "1.6rem", color: "#dd0031" }} />
+        <div className="tech-icons-text">Angular</div>
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <SiSpringboot style={{ fontSize: "1.6rem", color: "#6db33f" }} />
+        <div className="tech-icons-text">Spring Boot</div>
+      </Col>
 
       <Col xs={4} md={2} className="tech-icons">
         <img src={Postman} alt="Postman" />
